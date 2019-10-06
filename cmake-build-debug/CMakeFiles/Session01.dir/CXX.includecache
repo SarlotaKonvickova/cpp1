@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/CLionProjects/Session01/AllocationMemory.h
+iostream
+-
+
+/home/user/CLionProjects/Session01/NullExample.h
+iostream
+-
+AllocationMemory.h
+/home/user/CLionProjects/Session01/AllocationMemory.h
+
+/home/user/CLionProjects/Session01/main.cpp
+NullExample.h
+/home/user/CLionProjects/Session01/NullExample.h
+AllocationMemory.h
+/home/user/CLionProjects/Session01/AllocationMemory.h
+iostream
+-
+

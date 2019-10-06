@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Session02.dir/main.cpp.o  -o Session02 

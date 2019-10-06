@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/CLionProjects/Session02/CastExample.h
+
+/home/user/CLionProjects/Session02/ExceptionExample.h
+iostream
+-
+exception
+-
+stdexcept
+-
+
+/home/user/CLionProjects/Session02/GenericExample.h
+iostream
+-
+
+/home/user/CLionProjects/Session02/main.cpp
+ExceptionExample.h
+/home/user/CLionProjects/Session02/ExceptionExample.h
+GenericExample.h
+/home/user/CLionProjects/Session02/GenericExample.h
+CastExample.h
+/home/user/CLionProjects/Session02/CastExample.h
+

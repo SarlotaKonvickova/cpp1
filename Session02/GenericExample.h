@@ -1,5 +1,5 @@
-#ifndef SESSION02_GENERICEXAMPLE_H
-#define SESSION02_GENERICEXAMPLE_H
+#ifndef CPP1_GENERICEXAMPLE_H
+#define CPP1_GENERICEXAMPLE_H
 
 #include <iostream>
 
@@ -28,4 +28,4 @@ void GenericSample() {
     Print(Point(1, 2));
 }
 
-#endif //SESSION02_GENERICEXAMPLE_H
+#endif //CPP1_GENERICEXAMPLE_H

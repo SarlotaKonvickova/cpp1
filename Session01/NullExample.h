@@ -1,5 +1,5 @@
-#ifndef SESSION01_NULLEXAMPLE_H
-#define SESSION01_NULLEXAMPLE_H
+#ifndef CPP1_NULLEXAMPLE_H
+#define CPP1_NULLEXAMPLE_H
 
 #include <iostream>
 #include "AllocationMemory.h"
@@ -25,4 +25,4 @@ void Sample()
     Foo(nullptr);
 }
 
-#endif //SESSION01_NULLEXAMPLE_H
+#endif //CPP1_NULLEXAMPLE_H

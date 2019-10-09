@@ -9,7 +9,6 @@ int main(int argc, char** argv)
     //ExceptionExample02();
     //GeneticExpample();
     CastExample();
-    //IngeritenceExample();
     return 0;
 
 }

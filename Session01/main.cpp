@@ -20,7 +20,5 @@ int main(int argc, char** argv)
     AllocationMemory::Foo(3);
     //AllocationMemory::Sample02();
 
-
-
     return 0;
 }

@@ -1,5 +1,5 @@
-#ifndef SESSION01_EXCEPTIONEXAMPLE_H
-#define SESSION01_EXCEPTIONEXAMPLE_H
+#ifndef CPP1_EXCEPTIONEXAMPLE_H
+#define CPP1_EXCEPTIONEXAMPLE_H
 
 #include <iostream>
 #include <exception>
@@ -28,6 +28,4 @@ void ExceptionSample()
 }
 
 
-#endif //SESSION02_EXCEPTIONEXAMPLE_H
-
-#endif //SESSION01_EXCEPTIONEXAMPLE_H
+#endif //CPP1_EXCEPTIONEXAMPLE_H

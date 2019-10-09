@@ -1,5 +1,5 @@
-#ifndef SESSION02_CASTEXAMPLE_H
-#define SESSION02_CASTEXAMPLE_H
+#ifndef CPP1_CASTEXAMPLE_H
+#define CPP1_CASTEXAMPLE_H
 
 class IPrintable
 {
@@ -48,4 +48,4 @@ void CastExample()
 }
 
 
-#endif //SESSION02_CASTEXAMPLE_H
+#endif //CPP1_CASTEXAMPLE_H

@@ -1,5 +1,5 @@
-#ifndef SESSION01_ALLOCATIONMEMORY_H
-#define SESSION01_ALLOCATIONMEMORY_H
+#ifndef CPP1_ALLOCATIONMEMORY_H
+#define CPP1_ALLOCATIONMEMORY_H
 
 #include <iostream>
 
@@ -60,5 +60,4 @@ namespace AllocationMemory {
 
 }
 
-
-#endif //SESSION01_ALLOCATIONMEMORY_H
+#endif //CPP1_ALLOCATIONMEMORY_H

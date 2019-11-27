@@ -19,11 +19,11 @@ void write(vector <Person> person) {
     }
 }
 
-void save(){
+void save() {
     Person arrayOfPeople[SIZE_OF_ARRAY];
-    Person P1{"Kylie", "Romero", Address{"938-624 Fermentum Road", "Saint-Remy", "67043-579"}};
-    Person P2{"Jordan", "Stark", Address{"Ap #507-1145 Varius Rd.", "Duffel", "43040"}};
-    Person P3{"Amir", "Glass", Address{"9150 At Street", "Riksingen","7438"}};
+    Person P1{"Kylie", "Romero", Address{"938-624 Fermentum Road", "Saint-Remy", "67043-579"}, Date{1, 3, 1990}};
+    Person P2{"Jordan", "Stark", Address{"Ap #507-1145 Varius Rd.", "Duffel", "43040"}, Date{2, 5, 2000}};
+    Person P3{"Amir", "Glass", Address{"9150 At Street", "Riksingen", "7438"}, Date{4, 6, 1993}};
     arrayOfPeople[0] = P1;
     arrayOfPeople[1] = P2;
     arrayOfPeople[2] = P3;
@@ -31,8 +31,7 @@ void save(){
 
     ofstream myFile;
     myFile.open("Session_06.txt");
-    for (const auto& person : poleOsob)
-    {
+    for (const auto &person : poleOsob) {
         myFile << person << std::endl;
     }
     myFile.close();
@@ -40,8 +39,8 @@ void save(){
 
 }
 
-void load(){
-    Person* people = new Person[SIZE_OF_ARRAY];
+void load() {
+    Person *people = new Person[SIZE_OF_ARRAY];
     Person temp;
     ifstream in{};
     int count = 0;
@@ -52,7 +51,7 @@ void load(){
             people[i] = temp;
         }
     }
-    write(people,SIZE_OF_ARRAY);
+    write(people, SIZE_OF_ARRAY);
 }
 
 
